@@ -1,0 +1,28 @@
+# Environnements et caches Python / Jupyter
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+dist/
+build/
+*.egg-info/
+
+# Secrets et variables locales
+.env
+.env.*
+!.env.example
+
+# Données générées localement (reproductibles via `multimodal-rag index`)
+chroma_pdf/
+resultats_pdf/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers pédagogiques / notes locaux exclus du dépôt GitHub minimaliste
+rag_multimodal_agentique.ipynb
+infos.md
+tableau.jpg
+RECAP_TRAVAIL.md
