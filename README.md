@@ -54,7 +54,7 @@ flowchart TD
 # Copier le modèle de configuration et renseigner GEMINI_KEY (ou GOOGLE_API_KEY / OPENAI_API_KEY)
 Copy-Item .env.example .env
 
-# Créer l'environnement Python 3.12 et installer les dépendances
+# Créer l'environnement Python et installer les dépendances
 uv sync
 ```
 
